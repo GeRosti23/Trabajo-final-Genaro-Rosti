@@ -1,0 +1,94 @@
+footer {
+    background-color: red;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+    background-color: orange;
+}
+
+#FormTit {
+    font-style: italic;
+}
+
+.ElConter {
+    margin-right: 22em;
+    margin-bottom: 7em;
+    background-color: antiquewhite;
+    /*Articulos de index*/
+}
+
+.Recom {
+    margin-top: 3em;
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-bottom: 3em;
+    padding-top: 10em;
+    padding-left: 5em;
+    padding-bottom: 10em;
+    text-align: left;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(169, 244, 219);
+    /*Esto es solo para la pgina de recomendaciones*/
+}
+
+.CostadoCsGo {
+    opacity: 80%;
+    margin-top: 1em;
+    margin-left: 62em;
+    padding-left: 0.3em;
+    border-color: black;
+    border-style: dotted;
+    border-width: 1em;
+    position: absolute;
+    z-index: 4;
+}
+
+.principal {
+    border: 0.2em;
+    border-color: blue;
+    border-style: dashed;
+    margin-left: 27em;
+    margin-right: 28em;
+    background-color: aquamarine;
+    /*Nav del header*/
+}
+
+.aches {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+    /*H3 de la lista de armas y objetos de compra*/
+}
+
+.ACont {
+    font-style: italic;
+    font-weight: bolder;
+    /*Contenido interno del .aches*/
+}
+
+.ElCs {
+    margin-right: 22em;
+    margin-bottom: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    /*Art de consejos*/
+}
+
+.Formulario {
+    border: 2em;
+    border-color: aqua;
+    border-style: double;
+    margin-left: 30em;
+    margin-right: 30em;
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    /*Main dentro de form*/
+}
