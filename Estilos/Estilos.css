@@ -1,9 +1,12 @@
 footer {
     background-color: red;
+    border-radius: 40px;
+    margin-left: 30px;
+    padding-bottom: 10px;
 }
 
 body {
-    background-color: antiquewhite;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(245, 225, 225, 0.5)), url(../Imagenes/Dust2.webp);
 }
 
 header {
@@ -18,7 +21,6 @@ header {
 .ElConter {
     margin-right: 22em;
     margin-bottom: 80px;
-    background-color: antiquewhite;
     /*Articulos de index*/
 }
 
@@ -85,6 +87,17 @@ aside {
     /*Art de consejos*/
 }
 
+.IgFooter,
+.FbFooter,
+.SteamFooter {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Redes {
+    margin-left: 3rem;
+}
+
 .Formulario {
     border: 2em;
     border-color: aqua;
@@ -97,10 +110,17 @@ aside {
     /*Main dentro de form*/
 }
 
+/*Aspectos del navbar*/
+.Mi-conteiner {
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
 /*Aspectos de menu de armas*/
 .conteiner {
+    margin-top: 3em;
     padding-left: 10px;
-    background-color: orange;
     width: 98%;
     height: 100vh;
     display: grid;
@@ -110,26 +130,16 @@ aside {
     grid-auto-rows: 1fr;
     gap: 10px 10px;
     grid-template-areas:
-        "nav nav nav nav"
-        "extra info info info"
-        "mapas mapas mapas extra1"
-        "extra2 armas armas armas"
-        "form form form extra3"
-    ;
+        "extra2 fusiles fusiles fusiles"
+        "subfusiles subfusiles subfusiles extra3"
+        "extra armas_pesadas armas_pesadas armas_pesadas"
+        "utilidades utilidades utilidades extra1";
 }
 
-.nav {
-    grid-area: nav;
-    background-color: red;
-    height: 80px;
-    text-align: center;
-}
-
-.form,
-.info,
-.form,
-.armas,
-.mapas {
+.subfusiles,
+.armas_pesadas,
+.fusiles,
+.utilidades {
     border-radius: 20px;
     border: 1px;
     border-style: solid;
@@ -137,23 +147,23 @@ aside {
     text-align: center;
 }
 
-.info {
-    grid-area: info;
-    background-color: blue;
+.armas_pesadas {
+    grid-area: armas_pesadas;
+    background-color: brown;
 }
 
-.form {
-    grid-area: form;
+.subfusiles {
+    grid-area: subfusiles;
     background-color: green;
 }
 
-.armas {
-    grid-area: armas;
-    background-color: cyan;
+.fusiles {
+    grid-area: fusiles;
+    background-color: aqua;
 }
 
-.mapas {
-    grid-area: mapas;
+.utilidades {
+    grid-area: utilidades;
     background-color: blueviolet;
 }
 
@@ -166,6 +176,10 @@ aside {
     border: 1px;
     border-style: solid;
     border-color: black;
+    opacity: 50%;
+    text-align: center;
+    color: black;
+    padding-top: 3em;
 }
 
 .extra {
@@ -183,3 +197,98 @@ aside {
 .extra3 {
     grid-area: extra3;
 }
+
+/*Grid para la pagina de subfusiles*/
+.conteiner__subfusiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    gap: 5px 5px;
+    grid-template-areas:
+        "cardmp5 cardmp7 cardump extra"
+        "cardp90 cardpp cardmp9 extra1"
+        "cardmac10 extra3 extra3 extra3";
+}
+
+.cardmp5 {
+    grid-area: cardmp5;
+}
+
+.cardmp7 {
+    grid-area: cardmp7;
+}
+
+.cardump {
+    grid-area: cardump;
+}
+
+.cardp90 {
+    grid-area: cardp90;
+}
+
+.cardpp {
+    grid-area: cardpp;
+}
+
+.cardmp9 {
+    grid-area: cardmp9;
+}
+
+.cardmac10 {
+    grid-area: cardmac10;
+}
+
+/*Grdi para la pagina de fusiles*/
+
+.conteiner__fusiles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    gap: 5px 5px;
+    grid-template-areas:
+        "cardak47 cardm4a4 cardssg08 extra"
+        "cardssg553 cardaug cardawp extra1"
+        "cardscar cardgalil cardfamas extra2"
+}
+
+.cardak47 {
+    grid-area: cardak47;
+}
+
+.cardm4a4 {
+    grid-area: cardm4a4;
+}
+
+.cardssg08 {
+    grid-area: cardssg08;
+}
+
+.cardssg553 {
+    grid-area: cardssg553;
+}
+
+.cardaug {
+    grid-area: cardaug;
+}
+
+.cardawp {
+    grid-area: cardawp;
+}
+
+.cardscar {
+    grid-area: cardscar;
+}
+
+.cardgalil {
+    grid-area: cardgalil;
+}
+
+.cardfamas {
+    grid-area: cardfamas;
+}
+
+/*Grid para la pagina de escopetas*/
