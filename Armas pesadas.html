@@ -6,10 +6,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armas pesadas</title>
+    <!--Css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!--Link al css-->
+    <link rel="stylesheet" href="./Estilos/Estilos.css">
+    <!-- Link al JavaScript-->
+    <script src="./JavaScript/Variables.js"></script>
 </head>
 
 <body>
+    <header>
+        <img src="/Imagenes/CSGO.png" alt="Logo_CsGo" width="550" height="150">
 
+
+        <nav class="navbar navbar-expand-lg bg-yellow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Armas.html">Armas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Form.html">Formulario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Consejos.html">Consejos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Recomandaciones.html">Recomendaciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section>
+        <article class="conteiner__escopetas">
+            <div class="card cardnova" style="width: 18rem;">
+                <img src="./Imagenes/Nova.webp" class="card-img-top" alt="Nova">
+                <div class="card-body">
+                    <h5 class="card-title">Nova</h5>
+                    <p class="card-text">Una escopeta normal y corriente. Las postas se recargan una a una, por lo que
+                        si
+                        vacías el cargador, cambia de arma
+                        inmediatamente.</p>
+                </div>
+            </div>
+            <div class="card cardxm1014" style="width: 18rem;">
+                <img src="./Imagenes/xm1014.png" class="card-img-top" alt="XM1014">
+                <div class="card-body">
+                    <h5 class="card-title">XM1014</h5>
+                    <p class="card-text">Una escopeta cuya principal ventaja es que dispara más rápidO que las demás.
+                    </p>
+                </div>
+            </div>
+            <div class="card cardrecortada" style="width: 18rem;">
+                <img src="./Imagenes/recortada.webp" class="card-img-top" alt="recortada">
+                <div class="card-body">
+                    <h5 class="card-title">Recortada (TT)</h5>
+                    <p class="card-text">Aunque tiene un alcance extremadamente corto, es la única escopeta que
+                        garantiza la
+                        muerte del enemigo si está cerca.</p>
+                </div>
+            </div>
+            <div class="card cardmag7" style="width: 18rem;">
+                <img src="./Imagenes/mag-7.png" class="card-img-top" alt="Mag7">
+                <div class="card-body">
+                    <h5 class="card-title">Mag-7 (CT)</h5>
+                    <p class="card-text">El equivalente a la Recortada para el equipo Antiterrorista</p>
+                </div>
+            </div>
+            <div class="card cardm249" style="width: 18rem;">
+                <img src="./Imagenes/M249.png" class="card-img-top" alt="M249">
+                <div class="card-body">
+                    <h5 class="card-title">M249</h5>
+                    <p class="card-text">Una ametralladora ligera con un gran cargador.</p>
+                </div>
+            </div>
+            <div class="card cardnegev" style="width: 18rem;">
+                <img src="./Imagenes/negev.png" class="card-img-top" alt="negev">
+                <div class="card-body">
+                    <h5 class="card-title">Negev</h5>
+                    <p class="card-text">Tiene mayor cargador y precisión que la M249 pero la cadencia es más baja.</p>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <h4 class="Redes">Redes</h4>
+        <nav>
+            <a href="https://www.instagram.com/gena_rosti/" target="_blank" class="IgFooter"><img
+                    src="/Imagenes/Instagram.png" alt="Instagram" width="50" height="50"></a>
+            <a href="https://www.facebook.com/gena.rosti/" target="_blank" class="FbFooter"><img
+                    src="/Imagenes/Facebook.png" alt="Facebook" width="50" height="50"></a>
+            <a href="https://steamcommunity.com/profiles/76561198159013124/" target="_blank" class="SteamFooter">
+                <img src="/Imagenes/Steam.png" alt="Steam" width="50" height="50"></a>
+        </nav>
+    </footer>
 </body>
 
 </html>

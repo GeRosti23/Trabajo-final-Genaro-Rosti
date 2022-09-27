@@ -6,10 +6,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utilidades</title>
+    <!--Css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!--Link al css-->
+    <link rel="stylesheet" href="./Estilos/Estilos.css">
+    <!-- Link al JavaScript-->
+    <script src="./JavaScript/Variables.js"></script>
 </head>
 
 <body>
+    <header>
+        <img src="/Imagenes/CSGO.png" alt="Logo_CsGo" width="550" height="150">
 
+
+        <nav class="navbar navbar-expand-lg bg-yellow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Armas.html">Armas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Form.html">Formulario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Consejos.html">Consejos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Recomandaciones.html">Recomendaciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <article class="conteiner__utilidades">
+        <div class="card cardcoctel" style="width: 18rem;">
+            <img src="./Imagenes/molotovo.webp" class="card-img-top" alt="Coctel">
+            <div class="card-body">
+                <h5 class="card-title">Coctel molotov (TT)</h5>
+                <p class="card-text">Una bomba incendiaria.</p>
+            </div>
+        </div>
+        <div class="card cardincendiaria" style="width: 18rem;">
+            <img src="./Imagenes/incendiaria.webp" class="card-img-top" alt="Incendiarria">
+            <div class="card-body">
+                <h5 class="card-title">Incendiaria (CT)</h5>
+                <p class="card-text">El equivalente Antiterrorista al cóctel molotov.</p>
+            </div>
+        </div>
+        <div class="card cardseñuelo" style="width: 18rem;">
+            <img src="./Imagenes/señuelo.png" class="card-img-top" alt="Señuelo">
+            <div class="card-body">
+                <h5 class="card-title">Granada señuelo</h5>
+                <p class="card-text">Provoca un ruido parecido al de un tiroteo.</p>
+            </div>
+        </div>
+        <div class="card cardaturdidora" style="width: 18rem;">
+            <img src="./Imagenes/Flashbang.webp" class="card-img-top" alt="Aturadidora">
+            <div class="card-body">
+                <h5 class="card-title">Granada aturdidora</h5>
+                <p class="card-text">La "flashbang" ciega a aquel que esté mirando a su zona de explosión y lo
+                    ensordece.</p>
+            </div>
+        </div>
+        <div class="card Cardgranada" style="width: 18rem;">
+            <img src="./Imagenes/granda.png" class="card-img-top" alt="Granada">
+            <div class="card-body">
+                <h5 class="card-title">Granada HE</h5>
+                <p class="card-text">Una granada normal y corriente.</p>
+            </div>
+        </div>
+        <div class="card cardhumo" style="width: 18rem;">
+            <img src="./Imagenes/smoke.png" class="card-img-top" alt="Granada_humo">
+            <div class="card-body">
+                <h5 class="card-title">Granada de humo</h5>
+                <p class="card-text">Obstaculiza la visión del enemigo con una nube.</p>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <h4 class="Redes">Redes</h4>
+        <nav>
+            <a href="https://www.instagram.com/gena_rosti/" target="_blank" class="IgFooter"><img
+                    src="/Imagenes/Instagram.png" alt="Instagram" width="50" height="50"></a>
+            <a href="https://www.facebook.com/gena.rosti/" target="_blank" class="FbFooter"><img
+                    src="/Imagenes/Facebook.png" alt="Facebook" width="50" height="50"></a>
+            <a href="https://steamcommunity.com/profiles/76561198159013124/" target="_blank" class="SteamFooter">
+                <img src="/Imagenes/Steam.png" alt="Steam" width="50" height="50"></a>
+        </nav>
+    </footer>
 </body>
 
 </html>
