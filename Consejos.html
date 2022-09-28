@@ -52,7 +52,6 @@
                 </div>
             </div>
         </nav>
-
     </header>
 
     <article>
@@ -88,7 +87,17 @@
             </tr>
         </table>
     </article>
-
+    <script> alert("Con la siguiente informacion se calculara la relacion de bajas/muertes en su ultima partida");
+        var bajas = prompt("Cuantas bajas tuviste?");
+        var muertes = prompt("Y cuantas muertes tuviste?");
+        var media = bajas / muertes;
+        if (media > 1 || media === 1) {
+            alert("Muy buen, tu score es postivo: " + media);
+        }
+        else {
+            alert("Hay que seguir practicando, tu score es negativo: " + media);
+        }
+    </script>
     <footer>
         <h4 class="Redes">Redes</h4>
         <nav>
