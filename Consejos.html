@@ -87,17 +87,24 @@
             </tr>
         </table>
     </article>
-    <script> alert("Con la siguiente informacion se calculara la relacion de bajas/muertes en su ultima partida");
-        var bajas = prompt("Cuantas bajas tuviste?");
-        var muertes = prompt("Y cuantas muertes tuviste?");
-        var media = bajas / muertes;
-        if (media > 1 || media === 1) {
-            alert("Muy buen, tu score es postivo: " + media);
-        }
-        else {
-            alert("Hay que seguir practicando, tu score es negativo: " + media);
+
+    <a class="botonestilo" href="#" role="button" id="boton">Calcular relacion bajas/muertes</a>
+
+    <script>
+        var boton = document.getElementById("boton");
+        boton.onclick = function (e) {
+            var bajas = prompt("Cuantas bajas tuviste?");
+            var muertes = prompt("Y cuantas muertes tuviste?");
+            var media = bajas / muertes;
+            if (media > 1 || media === 1) {
+                alert("Muy buen, tu score es postivo: " + media);
+            }
+            else {
+                alert("Hay que seguir practicando, tu score es negativo: " + media);
+            }
         }
     </script>
+
     <footer>
         <h4 class="Redes">Redes</h4>
         <nav>

@@ -123,6 +123,18 @@ aside {
     /*Main dentro de form*/
 }
 
+.botonestilo {
+    margin: 100px;
+    border: 2px;
+    border-style: dotted;
+    border-color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+    /*boton de funcion*/
+}
+
 /*Aspectos del navbar*/
 .Mi-conteiner {
     margin: 1rem auto;
@@ -169,7 +181,7 @@ aside {
     background-color: rgb(119, 30, 30);
     box-shadow: 0px 0px 4px black;
     transform: scale(1.04);
-    transition: all 0.05s;
+    transition: all 0.5s;
 }
 
 .subfusiles {
@@ -255,6 +267,7 @@ aside {
 
 .cardmp5 {
     grid-area: cardmp5;
+
 }
 
 .cardmp7 {
@@ -294,6 +307,8 @@ aside {
         "cardak47 cardm4a4 cardssg08 "
         "cardssg553 cardaug cardawp "
         "cardscar cardgalil cardfamas";
+    margin: auto;
+    margin: 50px;
 }
 
 .cardak47 {
@@ -404,4 +419,36 @@ aside {
 
 .cardhumo {
     grid-area: cardhumo;
+}
+
+.cardak47,
+.cardaturdidora,
+.cardaug,
+.cardawp,
+.cardcoctel,
+.cardfamas,
+.cardgalil,
+.cardgranada,
+.cardhumo,
+.cardincendiaria,
+.cardm249,
+.cardm4a4,
+.cardmac10,
+.cardxm1014,
+.cardump,
+.cardssg553,
+.cardssg08,
+.cardseñuelo,
+.cardscar,
+.cardrecortada,
+.cardpp,
+.cardp90,
+.cardnova,
+.cardnegev,
+.cardmp9,
+.cardmp7,
+.cardmp5,
+.cardmag7 {
+    background-color: rgb(143, 143, 10);
+    height: 27rem;
 }
