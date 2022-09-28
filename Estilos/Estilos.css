@@ -18,7 +18,19 @@ header {
     font-style: italic;
 }
 
+.tabla {
+    margin: auto;
+    text-align: center;
+}
+
+.fila {
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
 .ElConter {
+    margin-left: 50px;
     margin-right: 22em;
     margin-bottom: 80px;
     /*Articulos de index*/
@@ -67,14 +79,14 @@ aside {
 }
 
 .aches {
+    margin-left: 30px;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
     text-justify: auto;
     /*H3 de la lista de armas y objetos de compra*/
 }
 
 .ACont {
-    font-style: italic;
+    margin-left: 50px;
     font-weight: bolder;
     /*Contenido interno del .aches*/
 }
@@ -89,7 +101,8 @@ aside {
 
 .IgFooter,
 .FbFooter,
-.SteamFooter {
+.SteamFooter,
+.WpFooter {
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -152,9 +165,23 @@ aside {
     background-color: brown;
 }
 
+.armas_pesadas:hover {
+    background-color: rgb(119, 30, 30);
+    box-shadow: 0px 0px 4px black;
+    transform: scale(1.04);
+    transition: all 0.05s;
+}
+
 .subfusiles {
     grid-area: subfusiles;
     background-color: green;
+}
+
+.subfusiles:hover {
+    background-color: rgb(0, 85, 0);
+    box-shadow: black;
+    transform: scale(1.04);
+    transition: all 0.5s;
 }
 
 .fusiles {
@@ -162,9 +189,23 @@ aside {
     background-color: aqua;
 }
 
+.fusiles:hover {
+    background-color: rgb(1, 155, 155);
+    box-shadow: 0px 0px 4px black;
+    transform: scale(1.04);
+    transition: all 0.5s;
+}
+
 .utilidades {
     grid-area: utilidades;
     background-color: blueviolet;
+}
+
+.utilidades:hover {
+    background-color: rgb(75, 24, 122);
+    box-shadow: 0px 0px 4px black;
+    transform: scale(1.04);
+    transition: all 0.5s;
 }
 
 .extra,

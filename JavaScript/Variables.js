@@ -1,4 +1,4 @@
-/* var pase = prompt("Que edad tenes?");
+var pase = prompt("Que edad tenes?");
 
 console.log(pase);
 
@@ -7,4 +7,4 @@ if (pase >= 18) {
 }
 else {
     window.confirm("Estas seguro que desea continuar? La pagina no se hara responsable a partir de este momento.");
-} */
+}
